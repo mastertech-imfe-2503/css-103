@@ -1,5 +1,9 @@
 body{
     background-color: blueviolet;
+    margin: 0;
+    overflow-x: hidden;
+    background-image: url("https://entreterse.com.br/wp-content/uploads/2018/12/As-Branqulas.jpg");
+    background-size: cover;
 }
 h1{
     color: salmon;
@@ -45,4 +49,9 @@ button{
     color: black;
     border-radius: 10px;
     cursor: pointer;
+}
+div{
+    width: 100vw;
+    height: 100px;
+    border-bottom: 5px solid black;
 }
