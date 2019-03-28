@@ -12,7 +12,37 @@ p{
     text-decoration: underline;
 }
 img{
-    height: 500px;
+    height: 100px;
     width: auto;
     border-radius: 5%;
+}
+
+input{
+    width: 150px;
+    height: 20px;
+    border-radius: 20px;
+    border: 3px solid yellow;
+}
+
+#inputEmailPrimeiro{
+    background-color: blue;
+}
+
+.inputEmail{
+    background-color: red;
+    color: white;
+}
+.inputSenha{
+    background-color: green;
+    color: white;
+    height: 40px;
+}
+button{
+    width: 90px;
+    height: 100px;
+    border: none;
+    background-color: bisque;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
 }
